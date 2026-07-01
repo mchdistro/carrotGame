@@ -1,0 +1,323 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "carrotGame-1.21.1",
+      "name": "당근게임",
+      "description": "Minecraft 1.21.1 (NeoForge v21.1.219)",
+      "icon": "https://github.com/mchdistro/carrotGame/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "mc.gotiger.dev:20207",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.neoforged:neoforge:21.1.219:universal",
+          "name": "NeoForge (neoforge jar)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 3524551,
+            "MD5": "f7a703bed50fb3cf2e6926a38ec85aa4",
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/net/neoforged/neoforge/21.1.219/neoforge-21.1.219-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-21.1.219",
+              "name": "NeoForge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 38408,
+                "MD5": "1b432da7691b8dda780398f5fb57331d",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/versions/1.21.1-neoforge-21.1.219/1.21.1-neoforge-21.1.219.json"
+              }
+            },
+            {
+              "id": "com.google.code.gson:gson:2.10.1",
+              "name": "NeoForge (gson)",
+              "type": "Library",
+              "artifact": {
+                "size": 283367,
+                "MD5": "df6097815738cb31fc56391553210843",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:failureaccess:1.0.1",
+              "name": "NeoForge (failureaccess)",
+              "type": "Library",
+              "artifact": {
+                "size": 4617,
+                "MD5": "091883993ef5bfa91da01dcc8fc52236",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:32.1.2-jre",
+              "name": "NeoForge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 3041591,
+                "MD5": "5fe031b3b35ed56182478811a931d617",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+              }
+            },
+            {
+              "id": "com.mojang:logging:1.2.7",
+              "name": "NeoForge (logging)",
+              "type": "Library",
+              "artifact": {
+                "size": 15343,
+                "MD5": "d01ea99740509a58222a426cc36f5456",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/com/mojang/logging/1.2.7/logging-1.2.7.jar"
+              }
+            },
+            {
+              "id": "commons-io:commons-io:2.15.1",
+              "name": "NeoForge (commons-io)",
+              "type": "Library",
+              "artifact": {
+                "size": 501218,
+                "MD5": "84351f7991a0e6722f00e96a4ccc376f",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
+              }
+            },
+            {
+              "id": "commons-logging:commons-logging:1.2",
+              "name": "NeoForge (commons-logging)",
+              "type": "Library",
+              "artifact": {
+                "size": 61829,
+                "MD5": "040b4b4d8eac886f6b4a2a3bd2f31b00",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "NeoForge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.commons:commons-lang3:3.14.0",
+              "name": "NeoForge (commons-lang3)",
+              "type": "Library",
+              "artifact": {
+                "size": 657952,
+                "MD5": "4e5c3f5e6b0b965ef241d7d72ac8971f",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.22.1",
+              "name": "NeoForge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 335001,
+                "MD5": "27db0eb89ae965179480df00d8d1cf03",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.22.1",
+              "name": "NeoForge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1900022,
+                "MD5": "b5987ee449d4be4244e2e214683c45af",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j2-impl:2.22.1",
+              "name": "NeoForge (log4j-slf4j2-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 27364,
+                "MD5": "82cc94f378ffb853efe084ee9bf4c463",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar"
+              }
+            },
+            {
+              "id": "org.slf4j:slf4j-api:2.0.9",
+              "name": "NeoForge (slf4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 64579,
+                "MD5": "45630e54b0f0ac2b3c80462515ad8fda",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.forgemod:carrot_game:1.0-SNAPSHOT@jar",
+          "name": "Carrot_game",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33166513,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/carrot_game-1.0-SNAPSHOT.jar",
+            "MD5": "4eabe8ba3c975c2a0c1a190217ae0338"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:iris_shader_folder:1.3.2-neoforge@jar",
+          "name": "Iris_shader_folder",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 202044,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/iris_shader_folder-1.3.2-neoforge.jar",
+            "MD5": "5abe524488b8cd824f1a9fb073051c64"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:iris:neoforge-1.8.12+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2438548,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/iris-neoforge-1.8.12+mc1.21.1.jar",
+            "MD5": "6c1122aa7c2b1a4f24831e394c5b513f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:koreanpatch:neoforge-1.9.6+mc1.21@jar",
+          "name": "Koreanpatch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 373120,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/koreanpatch-neoforge-1.9.6+mc1.21.jar",
+            "MD5": "873a272de656e908ec77878f3dd0bcb5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:plasmovoice:neoforge-1.21.1-2.1.13@jar",
+          "name": "Plasmovoice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12304232,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/plasmovoice-neoforge-1.21.1-2.1.13.jar",
+            "MD5": "b7005e28f999c7116658ef492c67fa06"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:sodium:neoforge-0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1162994,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/sodium-neoforge-0.6.13+mc1.21.1.jar",
+            "MD5": "e5018c782d851fea76be0205b7616e5d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:talkingheads:1.1.1-helmetfix+1.21.1+neoforge@jar",
+          "name": "TalkingHeads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 284671,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/TalkingHeads-1.1.1-helmetfix+1.21.1+neoforge.jar",
+            "MD5": "fa21656a7386ff9040621814b7e508a7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:xaerominimap:neoforge-1.21.1-26.1.0@jar",
+          "name": "Xaerominimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2138254,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/xaerominimap-neoforge-1.21.1-26.1.0.jar",
+            "MD5": "7a16e984052424ebf78f50283bca73e5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 485,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "BSL_v10.1.1.zip",
+          "name": "BSL_v10.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1125052,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/files/shaderpacks/BSL_v10.1.1.zip",
+            "MD5": "67b0a2d855e91f3578af7a4336e537f0",
+            "path": "shaderpacks/BSL_v10.1.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.8.1.zip",
+          "name": "ComplementaryUnbound_r5.8.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 546928,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+            "MD5": "0a3553109dbe689a9f76d1aedc8f50c6",
+            "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

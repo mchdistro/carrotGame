@@ -1,0 +1,41 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/carrotGame/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "당근게임",
+    "description": "Minecraft 1.21.1 (NeoForge v21.1.219)",
+    "icon": "https://github.com/mchdistro/carrotGame/raw/main/server-icon.png",
+    "address": "mc.gotiger.dev:20207",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true,
+    "javaOptions": {
+      "supported": "=>21",
+      "suggestedMajor": 21,
+      "platformOptions": [
+        {
+          "platform": "win32",
+          "architecture": "x64",
+          "distribution": "TEMURIN"
+        }
+      ],
+      "ram": {
+        "minimum": 4096,
+        "recommended": 8192
+      }
+    }
+  },
+  "neoforge": {
+    "version": "21.1.219"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": ["options.txt"]
+    }
+  ]
+}
