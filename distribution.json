@@ -12,7 +12,7 @@
       "name": "당근게임",
       "description": "Minecraft 1.21.1 (NeoForge v21.1.219)",
       "icon": "https://github.com/mchdistro/carrotGame/raw/main/server-icon.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "mc.gotiger.dev:20207",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -54,8 +54,8 @@
               "name": "NeoForge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 21148,
-                "MD5": "fb75bfae4b8f177f071f742edd0c1299",
+                "size": 21705,
+                "MD5": "93257ffbe08e4a74ae25002065fc22a8",
                 "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/versions/1.21.1-neoforge-21.1.219/1.21.1-neoforge-21.1.219.json"
               }
             },
