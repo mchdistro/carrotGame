@@ -12,7 +12,7 @@
       "name": "당근게임",
       "description": "Minecraft 1.21.1 (NeoForge v21.1.219)",
       "icon": "https://github.com/mchdistro/carrotGame/raw/main/server-icon.png",
-      "version": "0.1.1",
+      "version": "1.0.0",
       "address": "mc.gotiger.dev:20207",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -572,9 +572,9 @@
           "name": "Carrot_game",
           "type": "ForgeMod",
           "artifact": {
-            "size": 33166513,
+            "size": 33179159,
             "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/carrot_game-1.0-SNAPSHOT.jar",
-            "MD5": "4eabe8ba3c975c2a0c1a190217ae0338"
+            "MD5": "b96d095fea8481fdd59c6ef5e656531c"
           },
           "required": {
             "value": false
