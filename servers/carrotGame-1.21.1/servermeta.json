@@ -1,7 +1,7 @@
 {
   "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/carrotGame/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "name": "당근게임",
     "description": "Minecraft 1.21.1 (NeoForge v21.1.219)",
     "icon": "https://github.com/mchdistro/carrotGame/raw/main/server-icon.png",
