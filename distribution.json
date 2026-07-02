@@ -12,7 +12,7 @@
       "name": "당근게임",
       "description": "Minecraft 1.21.1 (NeoForge v21.1.219)",
       "icon": "https://github.com/mchdistro/carrotGame/raw/main/server-icon.png",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "address": "mc.gotiger.dev:20207",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -68,6 +68,30 @@
                 "size": 5670483,
                 "MD5": "a21d486caacfcb3dd66ce869b9bc74f6",
                 "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/net/neoforged/neoforge/21.1.219/neoforge-21.1.219-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.21.1-20240808.144430:slim",
+              "name": "NeoForge (client slim)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 14464635,
+                "MD5": "21a31126d805df21389e0b2ff8cb7411",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.21.1-20240808.144430:extra",
+              "name": "NeoForge (client extra)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 12372293,
+                "MD5": "973b9700852b66bb7b74df75b0113db2",
+                "url": "https://github.com/mchdistro/carrotGame/raw/main/repo/lib/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-extra.jar"
               },
               "subModules": []
             },
