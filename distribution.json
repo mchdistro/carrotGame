@@ -572,9 +572,9 @@
           "name": "Carrot_game",
           "type": "ForgeMod",
           "artifact": {
-            "size": 47895948,
+            "size": 47898098,
             "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/carrot_game-1.0-SNAPSHOT.jar",
-            "MD5": "ee8794b19c6c35e877434e02dbc1241e"
+            "MD5": "f29c460c521e0e057aba63343fb999fe"
           },
           "required": {
             "value": false
