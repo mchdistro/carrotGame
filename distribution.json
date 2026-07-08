@@ -568,13 +568,13 @@
           ]
         },
         {
-          "id": "generated.forgemod:carrot_game:1.0-SNAPSHOT (1)@jar",
+          "id": "generated.forgemod:carrot_game:1.0-SNAPSHOT@jar",
           "name": "Carrot_game",
           "type": "ForgeMod",
           "artifact": {
-            "size": 48517905,
-            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/carrot_game-1.0-SNAPSHOT%20(1).jar",
-            "MD5": "8c6ff72a1fe799652703705943e42b27"
+            "size": 48576725,
+            "url": "https://github.com/mchdistro/carrotGame/raw/main/servers/carrotGame-1.21.1/neoforgemods/optionalon/carrot_game-1.0-SNAPSHOT.jar",
+            "MD5": "ebe96925048245561f92551220c6c627"
           },
           "required": {
             "value": false
